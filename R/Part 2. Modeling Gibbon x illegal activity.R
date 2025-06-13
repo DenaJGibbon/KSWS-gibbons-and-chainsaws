@@ -70,4 +70,4 @@ AICtab(null_model,
        full_model,
        weights=T)
 
-sjPlot::plot_model(full_model)
+sjPlot::plot_model(full_model,type='pred')
